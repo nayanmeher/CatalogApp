@@ -1,17 +1,9 @@
 import 'package:flutter/material.dart';
-
+import 'my_home.dart';
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(
+    home: MyHome(),
+  ));
 }
 
-class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => _MyAppState();
-}
 
-class _MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
