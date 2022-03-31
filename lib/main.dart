@@ -15,7 +15,7 @@ void main() {
       fontFamily: GoogleFonts.lato().fontFamily,
       primarySwatch: Colors.deepPurple
     ),
-    initialRoute: '/',
+    initialRoute: '/home',
     routes: {
       "/":(context) => LoginPage(),
       MyRoutes.homeRoute: (context) => MyHome(),

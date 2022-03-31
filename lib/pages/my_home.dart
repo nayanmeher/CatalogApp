@@ -1,3 +1,4 @@
+import 'package:bloc_test1/widgets/my_drawer.dart';
 import 'package:flutter/material.dart';
 
 class MyHome extends StatefulWidget {
@@ -13,7 +14,7 @@ class _MyHomeState extends State<MyHome> {
         title: Text('Catalog App'),
       ),
       body: Container(),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
