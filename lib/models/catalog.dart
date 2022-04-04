@@ -1,24 +1,39 @@
 class Item {
-  int id;
-  String name;
-  String desc;
-  num price;
-  String color;
-  String image;
+  final int id;
+  final String name;
+  final String desc;
+  final num price;
+  final String color;
+  final String image;
 
-  Item(this.id, this.name, this.desc, this.price, this.color, this.image);
+  Item(
+      {required this.id,
+      required this.name,
+      required this.desc,
+      required this.price,
+      required this.color,
+      required this.image});
+
+  factory Item.fromJson(Map<String, dynamic> map) {
+    return Item(
+        id: map['id'],
+        name: map['name'],
+        desc: map['desc'],
+        price: map['price'],
+        color: map['color'],
+        image: map['image']);
+  }
+
+  toMap() => {
+        'id': id,
+        'name': name,
+        'desc': desc,
+        'price': price,
+        'color': color,
+        'image': image
+      };
 }
 
-class CatalogModels{
- static final items = [
-    Item(
-        1,
-        "Iphone 13 pro max",
-        "Latest Smart phone by Apple",
-        120000,
-        "#8bf0dc",
-        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1644969385433"),
-  ];
+class CatalogModels {
+  static var items ;
 }
-
-

@@ -1,0 +1,101 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 13 Pro Max",
+      "desc": "256GB | 8GB | Alpine Green",
+      "price": 139000,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT3nKfqR3-wmqMxiSP-9MWZoHC87ST6G_T7ehZ8SNPjNTx62Mt8eAc-tJgSsSn_0PvARuFrq_UY53JOLehu7DMvkwqITL3Lgb2Z3JIZ3usVp-apzrcV-SScsw&usqp=CAE"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 13 Pro Max",
+      "desc": "128GB | 8GB | Griphite",
+      "price": 84900,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCpAxDnZ5-ThYLiG68wvn2UhkPNzot5k7d9f-1uThk02KnQErBqRcIj3tkfFU1FRYvub2UwXlbRoeubSA761iTDIJatuuon5y19bO-Xz1bbwT0u8vcIWiI&usqp=CAE"
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy S21 Ultra",
+      "desc": "256GB | 12GB | Phantom Black",
+      "price": 105999,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSYQWcTzRj3BdYeQnIzbPUl1N8zE9pB4rqN8dFoIAMWVV1XaZy9QowBkFETC4j2s_9HRObs48fxDVnwL68-MVsCnHWkQLw4xCHSsCBjERx4&usqp=CAE"
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy S21 Ultra",
+      "desc": "256GB | 12GB | Phantom Black",
+      "price": 105999,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSYQWcTzRj3BdYeQnIzbPUl1N8zE9pB4rqN8dFoIAMWVV1XaZy9QowBkFETC4j2s_9HRObs48fxDVnwL68-MVsCnHWkQLw4xCHSsCBjERx4&usqp=CAE"
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy Z Flip3",
+      "desc": "256GB | 8GB | Phantom Black",
+      "price": 88999,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSt9AAv4o0s1Oy9LgBXdHU09rc6r0ttCAFdpaltQ35K7Gq9hC8-seCqpEx75aC6mlJperafhpidP0I1G4th30kxXMIwAJQA-n1Cwbw9kOg6gvCQMBEQkYdAGGA&usqp=CAE"
+    },
+    {
+      "id": 6,
+      "name": "OnePlus 9Pro 5G",
+      "desc": "256GB | 12GB | Pine Green",
+      "price": 64999,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSy0uToIji-NWvjq1vSJ2Way6fa_7Ka-zW7bV8kgjS24eDvB2MLBiic6qrC9r0XvDzoz6mrcpZcIUlqETIi5sb3IxC0mtKVFp3hWTBVRxtT0MCnUYkmYC9FUQ&usqp=CAE"
+    },
+    {
+      "id": 7,
+      "name": "Oppo Reno 7Pro",
+      "desc": "256GB | 12GB | sky blue",
+      "price": 39999,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQnQfzWYI6f0yYRRKmRhD2589JAOUybeDa4qVHTu5l3kklO-TCGotHsfIUCVCj51s7Xf4L22AzvZEF-9E69r7dosD0cvhmGid3Ktyq-pzLJMTvIOIdmoEZsMw&usqp=CAE"
+    },
+    {
+      "id": 8,
+      "name": "Samsung Galaxy A51",
+      "desc": "128GB | 6GB | Haze Crush Silver",
+      "price": 20999,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTxj_CA561l3V40CT2Bgqe8GGBedWRzVizjRO9IAYfnvF_f96Q-AqRKp-W10I7TlbY854S6zc0wAmCvz6qfirx4GNr6-kz-wN90m6y8dBKlO1w7zqSbj6Qo&usqp=CAE"
+    },
+    {
+      "id": 9,
+      "name": "Redmi 9 Prime",
+      "desc": "128GB | 4GB | Space Blue",
+      "price": 11999,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTO2jwqIQJd4s9v1j_F8AfQZHHMu_O1g_RyQXHmuZyHLsoQ2VuchuXPa_zVtr9c-2vaI6iP3XUYgFTrI3whV6Ow4mvWhQUD7v8dNE-ByJmxz69XvwveaGbIew&usqp=CAE"
+    },
+    {
+      "id": 10,
+      "name": "Nokia 3.4",
+      "desc": "64GB | 4GB | Black",
+      "price": 11999,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQNc5mGg4S9-9HPd091dUuFUtfOnq-cuGeUjLtOpb1LJ6sXlCgTSd2gA76IyoC2JluIoQNH5mBaYcLCwhux5gWYCmG0FePxBjp8nNEL9ZM&usqp=CAE"
+    },
+    {
+      "id": 11,
+      "name": "Jio Phone Next",
+      "desc": "32GB | 2GB | Black",
+      "price": 6499,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRpRaJD6cBTbNPP7PQlIh2udb61P86h3A-9C4PfIZwq1dv5THE4MGIKhn3Y-u2KWU1S3oqKBysYahqxVskDLp6YiH6f8FT5QCqqLodVB5mGjcwRuruyyY_C&usqp=CAE"
+    },
+    {
+      "id": 12,
+      "name": "Huawei Mate 40RS Porsche Collector Edition",
+      "desc": "512GB | 12GB | Black",
+      "price": 332130,
+      "color": "#62e3cd",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSKdM5inAtVbPBZEha_ujIbhE1GNLACuYHoodIvMGEaKnUoM7JgXOl8caftqOGESlxSOMUOuWbp0fN6pvGeTsQTzS6CbyyVo2dncbInbDq9UCs5_0-27xMOhQ&usqp=CAE"
+    }
+
+  ]
+}
