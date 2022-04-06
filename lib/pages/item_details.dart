@@ -1,4 +1,5 @@
 import 'package:bloc_test1/models/catalog.dart';
+import 'package:bloc_test1/widgets/homw_widget/add_to_cart.dart';
 import 'package:bloc_test1/widgets/themes.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -25,6 +26,7 @@ class ItemDetails extends StatelessWidget {
                 children: [
                   item.name.text.xl4.make(),
                   item.desc.text.xl.make(),
+
                 ],
               ),
             ))
@@ -36,14 +38,7 @@ class ItemDetails extends StatelessWidget {
           alignment: MainAxisAlignment.spaceBetween,
           children: [
             'INR ${item.price.toString()}'.text.color(Colors.red).bold.xl.make(),
-            ElevatedButton(
-              onPressed: () {},
-              child: Text('Buy'),
-              style: ButtonStyle(
-                  shape: MaterialStateProperty.all(StadiumBorder()),
-                  backgroundColor:
-                  MaterialStateProperty.all(MyThemeData.black)),
-            ).wh(100, 40),
+            AddToCartButton(item: item).wh(100, 40),
           ],
         ),
       ),

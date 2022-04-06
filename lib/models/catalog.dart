@@ -35,5 +35,18 @@ class Item {
 }
 
 class CatalogModels {
-  static var items ;
+
+  static final catModel = CatalogModels._internal();
+
+  CatalogModels._internal();
+
+  factory CatalogModels() => catModel;
+
+
+  static var items;
+
+  Item getById(int id) => items.firstWhere((element) => element.id == id, orElse: null);
+
+  Item getByPos(int pos) => items[pos];
+
 }

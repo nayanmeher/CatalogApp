@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:bloc_test1/models/catalog.dart';
+import 'package:bloc_test1/utils/myRoutes.dart';
 import 'package:bloc_test1/widgets/homw_widget/catalog_header.dart';
 import 'package:bloc_test1/widgets/homw_widget/catalog_list.dart';
 import 'package:bloc_test1/widgets/item_widget.dart';
@@ -38,6 +39,13 @@ class _MyHomeState extends State<MyHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.pushNamed(context, MyRoutes.cartRoute);
+        },
+        child: Icon(CupertinoIcons.shopping_cart),
+        backgroundColor: MyThemeData.black,
+      ),
       backgroundColor: MyThemeData.grey,
       body: SafeArea(
         child: Container(

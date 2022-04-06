@@ -1,3 +1,4 @@
+import 'package:bloc_test1/models/cart_item_model.dart';
 import 'package:bloc_test1/models/catalog.dart';
 import 'package:bloc_test1/pages/item_details.dart';
 import 'package:flutter/cupertino.dart';
@@ -5,10 +6,10 @@ import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../themes.dart';
+import 'add_to_cart.dart';
 
 class CatalogItem extends StatelessWidget {
   final Item item;
-
   const CatalogItem({Key? key, required this.item}) : super(key: key);
 
   @override
@@ -32,14 +33,7 @@ class CatalogItem extends StatelessWidget {
                 Text('INR ${item.price.toString()}'),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(0, 0, 15, 0),
-                  child: ElevatedButton(
-                    onPressed: () {},
-                    child: Text('Buy'),
-                    style: ButtonStyle(
-                        shape: MaterialStateProperty.all(StadiumBorder()),
-                        backgroundColor:
-                            MaterialStateProperty.all(MyThemeData.black)),
-                  ),
+                  child: AddToCartButton( item: item,)
                 )
               ],
             )
@@ -49,6 +43,9 @@ class CatalogItem extends StatelessWidget {
     )).white.rounded.square(150).make().py12();
   }
 }
+
+
+
 
 class CatalogList extends StatelessWidget {
   const CatalogList({Key? key}) : super(key: key);
